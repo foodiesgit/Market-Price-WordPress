@@ -1,0 +1,44 @@
+# Translation of Plugins - Register IPs - Stable (latest release) in Portuguese (Brazil)
+# This file is distributed under the same license as the Plugins - Register IPs - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-05-19 00:44:30+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: pt_BR\n"
+"Project-Id-Version: Plugins - Register IPs - Stable (latest release)\n"
+
+#. Author URI of the plugin
+msgid "http://halfelf.org"
+msgstr "http://halfelf.org"
+
+#. Author of the plugin
+msgid "Mika Epstein, Johnny White"
+msgstr "Mika Epstein, Johnny White"
+
+#. Description of the plugin
+msgid "Logs the IP of the user when they register a new account."
+msgstr "Registra o IP do usuário quando ele cadastra uma nova conta."
+
+#. Plugin URI of the plugin
+msgid "http://halfelf.org/plugins/register-ip-ms"
+msgstr "http://halfelf.org/plugins/register-ip-ms"
+
+#. Plugin Name of the plugin
+msgid "Register IPs"
+msgstr "Register IPs"
+
+#: register-ip.php:150
+msgid "None Recorded"
+msgstr "Nenhum registrado"
+
+#: register-ip.php:113
+msgid "IP Address"
+msgstr "Endereço de IP"
+
+#: register-ip.php:95
+msgid "Signup IP Address"
+msgstr "Endereço de IP de inscrição"

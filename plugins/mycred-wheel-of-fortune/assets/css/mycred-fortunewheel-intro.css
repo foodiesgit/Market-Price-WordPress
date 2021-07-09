@@ -1,0 +1,126 @@
+/** INTRO **/
+.mycred-fortunewheel-head {
+    font-size: 44px;
+    font-weight: 100;
+    margin: 4% auto;
+    height: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.mycred-fortunewheel-head span {
+    font-weight: 400;
+}
+
+.mycred-fortunewheel-wrapper {
+    background-color: white;
+    padding: 10px;
+    margin: 5%;
+    display: inline-block;
+    box-shadow: 0px 0px 12px #CCC;
+}
+
+.mycred-fortunewheel-title {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.mycred-fortunewheel-box-wrapper {
+    margin: 4% auto;
+    text-align: center;
+}
+
+.mycred-fortunewheel-desc {
+    width: 88%;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.mycred-fortunewheel-box {
+    width: 28%;
+    float: left;
+    margin: 8px;
+    background-color: white;
+    box-shadow: 2px 2px 5px #CCC;
+    padding: 10px;
+    border: solid 1px #CCC;
+    height: 250px;
+    /* border: solid; */
+}
+
+.mycred-fortunewheel-icon {
+    margin: 12px auto;
+    width: 42%;
+    /* font-size: 39px; */
+    height: 110px;
+}
+
+.mycred-fortunewheel-icon span {
+    font-size: 46px;
+}
+
+.mycred-fortunewheel-icon img {
+    height: 100px;
+}
+
+.mycred-fortunewheel-btn {
+    margin: 15px auto;
+    width: 25%;
+    /* display: inline-block; */
+}
+
+.mycred-boxes {
+    margin: 0 auto;
+    display: inline-block;
+    width: 90%;
+}
+
+#toplevel_page_mycred_fortunewheel_into {
+    display: none;
+}
+
+.mycred-fortunewheel-explain {
+    width: 90%;
+    margin: 0 auto;
+    /* float: left; */
+}
+
+.mycred-fortunewheel-explain div {
+    float: left;
+    /* width: 30%; */
+    margin: 10px;
+}
+
+.mycred-fortunewheel-sample img {
+    width: 100%;
+}
+
+.mycred-fortunewheel-sample-para {
+    width: 58%;
+    text-align: left;
+    font-size: 36px;
+    line-height: 50px;
+    margin-top: 80px !important;
+}
+
+.mycred-forunewheel-btn-wrapper {
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin: 60px 0px;
+}
+
+.mycred-forunewheel-btn {
+    background-color: #f1f1f1;
+    color: #656565;
+    width: 400px;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: solid 1px #CCC;
+    border-bottom: solid 2px #848484;
+    cursor: pointer;
+    font-size: 24px;
+    text-decoration:none;
+    /* border: solid 1px; */
+}

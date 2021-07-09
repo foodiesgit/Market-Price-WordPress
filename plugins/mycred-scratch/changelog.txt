@@ -1,0 +1,75 @@
+Version 1.3
+------------------------------------------------------------
+Added support for myCRED 1.8 with backward compatibility.
+Tested upto WordPress 5.0.2
+
+Version 1.2.3
+------------------------------------------------------------
+FIX - Decreased priority for ajax handler to allow the email notifications add-on to setup before anyone is paid out. This will allow email notifications to work correctly.
+FIX - Sold out template is not loaded correctly when a set finishes.
+NEW - Added option to delay the next card loading by x number of seconds.
+
+Version 1.2.2
+------------------------------------------------------------
+FIX - Fixed collision issue with WPML when the "Language URL format" settings is set to "Different languages in directories".
+FIX - Fixed PHP warnings when saving cards.
+FIX - When price is set to zero, the price description should show "Free" and not 0.
+
+Version 1.2.1
+------------------------------------------------------------
+FIX - Default background image is not being loaded.
+
+Version 1.2
+------------------------------------------------------------
+FIX - When switching to SSL from non SSL, coin and cover images that use the default templates are not loaded.
+FIX - Added missing strings to translation.
+FIX - Purple color not selectable for buttons.
+FIX - Removed padding option in shortcodes as it is not used.
+FIX - The mycred_scratch_history shortcode can not be filtered based on custom point types.
+NEW - The mycred_scratch_cards_remaining shortcode now supports custom content for sets that have sold out.
+NEW - Updated AJAX call handling.
+NEW - Optimized database queries to lower footprint.
+NEW - The plugin no longer loads when the website is viewed by a visitor.
+NEW - Card sets are now controlled by the myCRED_Scratch_Card_Set class instead of a bunch of stand alone functions.
+NEW - Added dedicated page for all scratch card purchases.
+NEW - Added dedicated page for all scratch card payouts.
+NEW - Added option to clone sets.
+TWEAK - The mycred_scratch_cards_remaining shortcode will now show remaining cards even if the set is on hold.
+TWEAK - Increased priority for button colors and adjusted button CSS to be less generic.
+TWEAK - Added support for URL changes after a card set has been created.
+TWEAK - Added better support for the mycred_history shortcode when using the mycred_scratch_history shortcode.
+
+Version 1.1.1
+------------------------------------------------------------
+FIX - Fixed issue with mobile devices the cards are not being loaded.
+
+Version 1.1
+------------------------------------------------------------
+TWEAK - Adjusted the card set editor to allow changes of messages and logo to be changed once a set is activated.
+NEW - Introduced the myCRED Play API.
+NEW - Added new [mycred_all_scratch_cards] shortcode to show multiple scratch cards.
+FIX - Fixed incorrect value in the Treasure Cove template.
+FIX - Fixed PHP notice when saving settings.
+FIX - Soldout template is not loaded due to incorrect variable name.
+FIX - Sold out template not showing in certain situations.
+UPDATED - Translation files.
+
+Version 1.0.2
+------------------------------------------------------------
+NEW - Added new filter mycred_scratch_everyonewins to allow zero no-win cards to be created.
+UPDATED - Updated myCRED License API.
+
+Version 1.0.1
+------------------------------------------------------------
+FIX - Fixed issue with play-field CSS styling.
+FIX - Corrected a few spelling mistakes.
+
+Version 1.0
+------------------------------------------------------------
+FIX - Added better support for the mycred_history shortcode when using the mycred_scratch_history shortcode.
+FIX - Corrected spelling mistakes.
+NEW - Added new action hooks to detect card wins.
+
+Version 1.0
+------------------------------------------------------------
+Initial release

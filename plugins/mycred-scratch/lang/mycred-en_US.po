@@ -1,0 +1,990 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: myCRED Scratch Cards\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-09-19 18:03+0000\n"
+"PO-Revision-Date: 2017-09-19 18:03+0000\n"
+"Last-Translator: mycredlabs <gabriel.s@merovingi.com>\n"
+"Language-Team: English (United States)\n"
+"Language: en-US\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"X-Loco-Target-Locale: en_US"
+
+#: mycred-scratch.php:310
+msgid "Buying a Scratch Card"
+msgstr ""
+
+#: mycred-scratch.php:311
+msgid "Winning on a Scratch Card"
+msgstr ""
+
+#: mycred-scratch.php:441
+msgid "This myCRED Add-on requires WordPress 4.0 or higher. Version detected:"
+msgstr ""
+
+#: mycred-scratch.php:446
+msgid "This myCRED Add-on requires PHP 5.3 or higher. Version detected: "
+msgstr ""
+
+#: mycred-scratch.php:451
+msgid "This myCRED Add-on requires SQL 5.0 or higher. Version detected: "
+msgstr ""
+
+#: mycred-scratch.php:455
+msgid "This add-on requires myCRED 1.6 or higher. Version detected:"
+msgstr ""
+
+#: mycred-scratch.php:461
+msgid ""
+"Sorry but your WordPress installation does not reach the minimum "
+"requirements for running this add-on. The following errors were given:"
+msgstr ""
+
+#: mycred-scratch.php:559
+msgid "More information about this plugin"
+msgstr ""
+
+#: mycred-scratch.php:561
+msgid "View details"
+msgstr ""
+
+#: includes/functions-cards.php:13
+msgctxt "Post Type General Name"
+msgid "Scratch Card Sets"
+msgstr ""
+
+#: includes/functions-cards.php:14
+msgctxt "Post Type Singular Name"
+msgid "Scratch Card"
+msgstr ""
+
+#: includes/functions-cards.php:15 includes/functions-cards.php:16
+#: includes/functions-cards.php:40
+msgid "Scratch Cards"
+msgstr ""
+
+#: includes/functions-cards.php:17
+msgid "Cards Archive"
+msgstr ""
+
+#: includes/functions-cards.php:18
+msgid "Parent Card:"
+msgstr ""
+
+#: includes/functions-cards.php:19
+msgid "All Sets"
+msgstr ""
+
+#: includes/functions-cards.php:20
+msgid "Add New Set"
+msgstr ""
+
+#: includes/functions-cards.php:21
+msgid "Add New"
+msgstr ""
+
+#: includes/functions-cards.php:22
+msgid "New Set"
+msgstr ""
+
+#: includes/functions-cards.php:23
+msgid "Edit Set"
+msgstr ""
+
+#: includes/functions-cards.php:24
+msgid "Update Set"
+msgstr ""
+
+#: includes/functions-cards.php:25
+msgid "View Set"
+msgstr ""
+
+#: includes/functions-cards.php:26
+msgid "Search scratch cards"
+msgstr ""
+
+#: includes/functions-cards.php:27
+msgid "No scratch card sets found"
+msgstr ""
+
+#: includes/functions-cards.php:28
+msgid "No scratch card sets found in Trash"
+msgstr ""
+
+#: includes/functions-cards.php:29
+msgid "Card Set Logo"
+msgstr ""
+
+#: includes/functions-cards.php:30
+msgid "Add a logo to this set"
+msgstr ""
+
+#: includes/functions-cards.php:31
+msgid "Remove logo"
+msgstr ""
+
+#: includes/functions-cards.php:32
+msgid "Use as Logo"
+msgstr ""
+
+#: includes/functions-cards.php:33
+msgid "Insert into set"
+msgstr ""
+
+#: includes/functions-cards.php:34
+msgid "Uploaded to this set"
+msgstr ""
+
+#: includes/functions-cards.php:35
+msgid "Scratch Card list"
+msgstr ""
+
+#: includes/functions-cards.php:36
+msgid "Scratch Card list navigation"
+msgstr ""
+
+#: includes/functions-cards.php:37
+msgid "Filter scratch card set list"
+msgstr ""
+
+#: includes/functions-cards.php:41
+msgid "myCRED scratch card sets."
+msgstr ""
+
+#: includes/functions-cards.php:100
+msgid "Unknown"
+msgstr ""
+
+#: includes/functions-cards.php:102 classes/class.scratch-card-set.php:180
+msgid "Available"
+msgstr ""
+
+#: includes/functions-cards.php:105 classes/class.scratch-card-set.php:181
+#: includes/admin/manage-settings.php:169
+msgid "On Hold"
+msgstr ""
+
+#: includes/functions-cards.php:108 classes/class.scratch-card-set.php:182
+#: includes/admin/manage-settings.php:162
+msgid "Sold Out"
+msgstr ""
+
+#: includes/functions-cards.php:111 classes/class.scratch-card-set.php:183
+msgid "Trashed"
+msgstr ""
+
+#: includes/functions-cards.php:114 classes/class.scratch-card-set.php:184
+msgid "Draft"
+msgstr ""
+
+#: includes/functions-cards.php:162
+msgid "Reset Preview"
+msgstr ""
+
+#: includes/functions-cards.php:172
+msgid "The card has been scratched."
+msgstr ""
+
+#: includes/functions-shortcodes.php:67
+#, php-format
+msgctxt "Scratch cards name"
+msgid "Scratch Card: %s"
+msgstr ""
+
+#: includes/functions-shortcodes.php:78 includes/functions-shortcodes.php:150
+msgid "loading ..."
+msgstr ""
+
+#: includes/functions-shortcodes.php:107
+msgid "Your Balance:"
+msgstr ""
+
+#: includes/functions-shortcodes.php:216 includes/admin/edit-cards.php:814
+msgid "Card Value"
+msgstr ""
+
+#: includes/functions-shortcodes.php:217
+msgid "Cards Left"
+msgstr ""
+
+#: includes/functions-shortcodes.php:232 includes/admin/manage-cards.php:205
+#: includes/admin/manage-cards.php:246 includes/admin/edit-cards.php:839
+msgid "No win"
+msgstr ""
+
+#: includes/functions-shortcodes.php:248 includes/admin/manage-cards.php:216
+#: includes/admin/manage-cards.php:259 includes/admin/edit-cards.php:853
+msgid "Total"
+msgstr ""
+
+#: includes/functions-ajax.php:40
+msgid "Unlimited plays."
+msgstr ""
+
+#: includes/functions-ajax.php:44
+#, php-format
+msgid "Max. 1 purchase / day"
+msgid_plural "Max. %d purchases / day"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/functions-ajax.php:51 includes/functions-ajax.php:52
+#: includes/functions-ajax.php:167 classes/class.scratch-card-set.php:540
+#: includes/admin/manage-purchase-log.php:409
+msgid "Free"
+msgstr ""
+
+#: includes/functions-ajax.php:59 includes/functions-ajax.php:172
+msgid "Buy"
+msgstr ""
+
+#: includes/functions-ajax.php:70 includes/functions-ajax.php:178
+msgid "Play"
+msgstr ""
+
+#: includes/functions-ajax.php:141
+msgid "No scratch cards available at this time"
+msgstr ""
+
+#: includes/functions-ajax.php:238
+msgid "Select a card"
+msgstr ""
+
+#: includes/functions-ajax.php:267
+msgid "Could not complete purchase. Please reload the page and try again."
+msgstr ""
+
+#: includes/functions-ajax.php:430 includes/functions-ajax.php:477
+msgid "Card not found. Please reload this page and try again."
+msgstr ""
+
+#: includes/functions-ajax.php:532
+msgid "Could not payout. Error 2"
+msgstr ""
+
+#: includes/functions-ajax.php:569
+msgid "You have already been paid for this card."
+msgstr ""
+
+#: includes/functions-ajax.php:643 includes/functions-ajax.php:661
+msgid "Invalid ID"
+msgstr ""
+
+#: includes/functions-card-templates.php:14
+msgid "Fireworks"
+msgstr ""
+
+#: includes/functions-card-templates.php:42
+msgid "Starburst"
+msgstr ""
+
+#: includes/functions-card-templates.php:73
+msgid "Treasure Cove"
+msgstr ""
+
+#: includes/functions-card-templates.php:173
+msgid "Custom Template"
+msgstr ""
+
+#: classes/class.scratch-card-set.php:543
+#, php-format
+msgctxt "10 points / play"
+msgid "%s / play"
+msgstr ""
+
+#: classes/class.scratch-card-set.php:569 includes/admin/edit-cards.php:225
+msgid "Unlimited"
+msgstr ""
+
+#: includes/admin/manage-payout-log.php:18
+#: includes/admin/manage-payout-log.php:19
+#: includes/admin/manage-payout-log.php:220
+msgid "Payout Log"
+msgstr ""
+
+#: includes/admin/manage-payout-log.php:172
+#: includes/admin/manage-purchase-log.php:173
+msgid "Entries"
+msgstr ""
+
+#: includes/admin/manage-payout-log.php:208
+#: includes/admin/manage-give-cards.php:223
+#: includes/admin/manage-purchase-log.php:209
+msgid "User"
+msgstr ""
+
+#: includes/admin/manage-payout-log.php:209
+#: includes/admin/manage-purchase-log.php:210
+msgid "Date"
+msgstr ""
+
+#: includes/admin/manage-payout-log.php:210
+#: includes/admin/manage-give-cards.php:224
+#: includes/admin/manage-purchase-log.php:211
+msgid "Card Set"
+msgstr ""
+
+#: includes/admin/manage-payout-log.php:211 includes/admin/edit-cards.php:481
+msgid "Payout"
+msgstr ""
+
+#: includes/admin/manage-payout-log.php:227
+#: includes/admin/manage-purchase-log.php:228
+msgid "No entries were deleted"
+msgstr ""
+
+#: includes/admin/manage-payout-log.php:229
+#: includes/admin/manage-purchase-log.php:230
+#, php-format
+msgid "1 entry deleted"
+msgid_plural "%d entries deleted"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/manage-payout-log.php:267
+#: includes/admin/manage-purchase-log.php:268
+msgid "Bulk Actions"
+msgstr ""
+
+#: includes/admin/manage-payout-log.php:268
+#: includes/admin/manage-purchase-log.php:269
+#: includes/admin/manage-purchase-log.php:368
+msgid "Delete"
+msgstr ""
+
+#: includes/admin/manage-payout-log.php:269
+#: includes/admin/manage-purchase-log.php:270
+msgid "Export"
+msgstr ""
+
+#: includes/admin/manage-payout-log.php:283
+#: includes/admin/manage-purchase-log.php:284
+msgid "Apply"
+msgstr ""
+
+#: includes/admin/manage-payout-log.php:294
+#: includes/admin/manage-purchase-log.php:295
+msgid "Filter by Card Set"
+msgstr ""
+
+#: includes/admin/manage-payout-log.php:304
+#: includes/admin/manage-purchase-log.php:305
+msgid "Show in order"
+msgstr ""
+
+#: includes/admin/manage-payout-log.php:305
+#: includes/admin/manage-purchase-log.php:306
+msgid "Ascending"
+msgstr ""
+
+#: includes/admin/manage-payout-log.php:305
+#: includes/admin/manage-purchase-log.php:306
+msgid "Descending"
+msgstr ""
+
+#: includes/admin/manage-payout-log.php:316
+#: includes/admin/manage-purchase-log.php:317
+msgid "User ID, Username, Email or Nicename"
+msgstr ""
+
+#: includes/admin/manage-payout-log.php:317
+#: includes/admin/manage-purchase-log.php:318
+msgid "Filter"
+msgstr ""
+
+#: includes/admin/manage-give-cards.php:18
+#: includes/admin/manage-give-cards.php:19
+#: includes/admin/manage-give-cards.php:282
+msgid "Give Card"
+msgstr ""
+
+#: includes/admin/manage-give-cards.php:194
+msgid "Give Cards"
+msgstr ""
+
+#: includes/admin/manage-give-cards.php:198
+#, php-format
+msgid "Card successfully given to user."
+msgid_plural "%d Cards successfully given to user."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/manage-give-cards.php:203
+msgid ""
+"Could not find a user with the details you provided. Please check and try "
+"again."
+msgstr ""
+
+#: includes/admin/manage-give-cards.php:206
+msgid "The selected card set could not be found."
+msgstr ""
+
+#: includes/admin/manage-give-cards.php:209
+msgid "The selected card set is not available."
+msgstr ""
+
+#: includes/admin/manage-give-cards.php:212
+msgid "The selected card set has no cards remaining."
+msgstr ""
+
+#: includes/admin/manage-give-cards.php:217
+msgid ""
+"Here you can give away cards to your users without them needing to pay for "
+"it. Once a card has been given to a user, they can scratch it immediately."
+msgstr ""
+
+#: includes/admin/manage-give-cards.php:225
+msgid "Number"
+msgstr ""
+
+#: includes/admin/manage-give-cards.php:233
+msgid "User ID, email or username"
+msgstr ""
+
+#: includes/admin/manage-give-cards.php:258
+msgid "No active card sets found."
+msgstr ""
+
+#: includes/admin/manage-give-cards.php:266
+#, php-format
+msgctxt "%s = Card Set Title %d = Number of cards remaining"
+msgid "%s ( %d Remaining )"
+msgstr ""
+
+#: includes/admin/manage-give-cards.php:290
+msgid "Working ..."
+msgstr ""
+
+#: includes/admin/manage-cards.php:80
+msgid "Card Set Reactivated."
+msgstr ""
+
+#: includes/admin/manage-cards.php:83
+msgid "Card Set put On Hold."
+msgstr ""
+
+#: includes/admin/manage-cards.php:89
+msgid "Card Set permanently deleted."
+msgstr ""
+
+#: includes/admin/manage-cards.php:96
+msgid "Set successfully cloned."
+msgstr ""
+
+#: includes/admin/manage-cards.php:98
+msgid "Failed to clone card set."
+msgstr ""
+
+#: includes/admin/manage-cards.php:119 includes/admin/edit-cards.php:96
+msgid ""
+"Are you sure you want to put sale of this set on hold? Purchased cards that "
+"has not yet been scratched will still be available to users but no new cards "
+"can be purchased."
+msgstr ""
+
+#: includes/admin/manage-cards.php:120 includes/admin/edit-cards.php:79
+msgid ""
+"Are you sure you want to destroy this card set? All remaining cards will be "
+"permanently deleted. This can not be undone!"
+msgstr ""
+
+#: includes/admin/manage-cards.php:141
+msgid "Logo"
+msgstr ""
+
+#: includes/admin/manage-cards.php:142
+msgid "Set ID"
+msgstr ""
+
+#: includes/admin/manage-cards.php:143
+msgid "Status"
+msgstr ""
+
+#: includes/admin/manage-cards.php:144 includes/admin/edit-cards.php:133
+msgid "Setup"
+msgstr ""
+
+#: includes/admin/manage-cards.php:145
+msgid "Remaining"
+msgstr ""
+
+#: includes/admin/manage-cards.php:177
+msgid "Not used"
+msgstr ""
+
+#: includes/admin/manage-cards.php:287
+msgid "Clone Set"
+msgstr ""
+
+#: includes/admin/manage-cards.php:290
+msgid "Destroy Set"
+msgstr ""
+
+#: includes/admin/manage-settings.php:16 includes/admin/manage-settings.php:17
+#: includes/admin/manage-settings.php:73
+msgid "Settings"
+msgstr ""
+
+#: includes/admin/manage-settings.php:73
+msgid "Documentation"
+msgstr ""
+
+#: includes/admin/manage-settings.php:77
+msgid "Settings updated."
+msgstr ""
+
+#: includes/admin/manage-settings.php:90
+msgid ""
+"The MySQL RAND() function has been disabled on this site. Use alternative "
+"random script."
+msgstr ""
+
+#: includes/admin/manage-settings.php:94
+msgid "Load Delay"
+msgstr ""
+
+#: includes/admin/manage-settings.php:97
+msgid ""
+"Option to delay the play field loading a new card once the user finished "
+"scratching their current card. Use zero for no delay. "
+msgstr ""
+
+#: includes/admin/manage-settings.php:101
+msgid "Force SSL"
+msgstr ""
+
+#: includes/admin/manage-settings.php:103
+msgid ""
+"Force all card images to be loaded over https instead of http. Enable this "
+"if you recently enabled SSL on your website and you have available scratch "
+"cards."
+msgstr ""
+
+#: includes/admin/manage-settings.php:107
+msgid "Excludes"
+msgstr ""
+
+#: includes/admin/manage-settings.php:109
+msgid "Exclude by Role"
+msgstr ""
+
+#: includes/admin/manage-settings.php:110
+msgid "Check all roles that are not allowed to play scratch cards."
+msgstr ""
+
+#: includes/admin/manage-settings.php:128
+msgid "Exclude by ID"
+msgstr ""
+
+#: includes/admin/manage-settings.php:129
+msgid "Comma separated list of user IDs to exclude from playing scratch cards."
+msgstr ""
+
+#: includes/admin/manage-settings.php:136
+msgid "Shortcode Templates"
+msgstr ""
+
+#: includes/admin/manage-settings.php:137
+msgid ""
+"The following templates will be used when users for one reason or another, "
+"can not play."
+msgstr ""
+
+#: includes/admin/manage-settings.php:141
+msgid "Visitors"
+msgstr ""
+
+#: includes/admin/manage-settings.php:143
+msgid "Shown when someone views any shortcode and are not logged in."
+msgstr ""
+
+#: includes/admin/manage-settings.php:148
+msgid "Excluded"
+msgstr ""
+
+#: includes/admin/manage-settings.php:150
+msgid "Shown when a users is excluded form playing."
+msgstr ""
+
+#: includes/admin/manage-settings.php:155
+msgid "Insufficient Funds"
+msgstr ""
+
+#: includes/admin/manage-settings.php:157
+msgid "Shown when a users can not afford to buy a new card."
+msgstr ""
+
+#: includes/admin/manage-settings.php:164
+msgid "Shown when a card set is sold out."
+msgstr ""
+
+#: includes/admin/manage-settings.php:171
+msgid "Shown when a card set is put on hold."
+msgstr ""
+
+#: includes/admin/manage-settings.php:178 includes/admin/edit-cards.php:211
+msgid "Save Changes"
+msgstr ""
+
+#: includes/admin/manage-tools.php:16 includes/admin/manage-tools.php:17
+#: includes/admin/manage-tools.php:73
+msgid "Tools"
+msgstr ""
+
+#: includes/admin/edit-cards.php:15
+msgid "Enter a set title"
+msgstr ""
+
+#: includes/admin/edit-cards.php:32 includes/admin/edit-cards.php:35
+#: includes/admin/edit-cards.php:37 includes/admin/edit-cards.php:38
+#: includes/admin/edit-cards.php:41
+msgid "Card Set Updated."
+msgstr ""
+
+#: includes/admin/edit-cards.php:68
+msgid "Scratch Card Backgrounds"
+msgstr ""
+
+#: includes/admin/edit-cards.php:69
+msgid "Use"
+msgstr ""
+
+#: includes/admin/edit-cards.php:70
+msgid "Scratch Card Cover Image"
+msgstr ""
+
+#: includes/admin/edit-cards.php:71
+msgid "Use as Cover"
+msgstr ""
+
+#: includes/admin/edit-cards.php:72 includes/admin/edit-cards.php:456
+msgid "Change Cover Image"
+msgstr ""
+
+#: includes/admin/edit-cards.php:73
+msgid "Scratch Card Coin Image"
+msgstr ""
+
+#: includes/admin/edit-cards.php:74
+msgid "Use as Coin"
+msgstr ""
+
+#: includes/admin/edit-cards.php:75
+msgid ""
+"Are you sure you want to activate this set? Once activated, you can no "
+"longer make any further changes to the set!"
+msgstr ""
+
+#: includes/admin/edit-cards.php:76
+msgid ""
+"Are you sure you want to load this template? The card layout, cover images "
+"and setup will be replaced. If you want to save your setup but look at a "
+"template, make sure you save your setup first before loading the template."
+msgstr ""
+
+#: includes/admin/edit-cards.php:77
+msgid ""
+"Activating the set will NOT save any changes you might have made! Make sure "
+"you save your changes before you activate a card set!"
+msgstr ""
+
+#: includes/admin/edit-cards.php:80
+msgid "Something went wrong. Please check the field and try again."
+msgstr ""
+
+#: includes/admin/edit-cards.php:127
+msgid "Actions"
+msgstr ""
+
+#: includes/admin/edit-cards.php:136 includes/admin/edit-cards.php:179
+msgid "Message Templates"
+msgstr ""
+
+#: includes/admin/edit-cards.php:139
+msgid "Card Design"
+msgstr ""
+
+#: includes/admin/edit-cards.php:142
+msgid "Winnings"
+msgstr ""
+
+#: includes/admin/edit-cards.php:145
+msgid "Coin Image"
+msgstr ""
+
+#: includes/admin/edit-cards.php:148
+msgid "Cover Image"
+msgstr ""
+
+#: includes/admin/edit-cards.php:154 includes/admin/edit-cards.php:182
+msgid "Preview"
+msgstr ""
+
+#: includes/admin/edit-cards.php:157
+msgid "No Win Backgrounds"
+msgstr ""
+
+#: includes/admin/edit-cards.php:166
+#, php-format
+msgid "%s Backgrounds"
+msgstr ""
+
+#: includes/admin/edit-cards.php:181
+msgid "Cards in Circulation"
+msgstr ""
+
+#: includes/admin/edit-cards.php:205
+msgid "Save"
+msgstr ""
+
+#: includes/admin/edit-cards.php:218
+msgid ""
+"Once a set is activated, no further changes will be allowed. Please make "
+"sure you double check everything before activating this set."
+msgstr ""
+
+#: includes/admin/edit-cards.php:223
+msgid "Current Status"
+msgstr ""
+
+#: includes/admin/edit-cards.php:224
+#, php-format
+msgid "Card Price: %s"
+msgstr ""
+
+#: includes/admin/edit-cards.php:225
+#, php-format
+msgid "Purchase Limit: %s"
+msgstr ""
+
+#: includes/admin/edit-cards.php:225
+#, php-format
+msgid "1 / day"
+msgid_plural "%d / day"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/edit-cards.php:227
+#, php-format
+msgid "Charged: %s"
+msgstr ""
+
+#: includes/admin/edit-cards.php:228
+#, php-format
+msgid "Paid: %s"
+msgstr ""
+
+#: includes/admin/edit-cards.php:230
+#, php-format
+msgid "Point Type: %s"
+msgstr ""
+
+#: includes/admin/edit-cards.php:256
+msgid "Destroy Card Set"
+msgstr ""
+
+#: includes/admin/edit-cards.php:266
+msgid "Activate"
+msgstr ""
+
+#: includes/admin/edit-cards.php:271
+msgid "Reactivate"
+msgstr ""
+
+#: includes/admin/edit-cards.php:275
+msgid "Restart"
+msgstr ""
+
+#: includes/admin/edit-cards.php:279
+msgid "Put On Hold"
+msgstr ""
+
+#: includes/admin/edit-cards.php:306
+msgid "Charged Point Type"
+msgstr ""
+
+#: includes/admin/edit-cards.php:312
+msgid "Paid Out Point Type"
+msgstr ""
+
+#: includes/admin/edit-cards.php:318
+msgid "Cost"
+msgstr ""
+
+#: includes/admin/edit-cards.php:320
+msgid "Use zero for free plays."
+msgstr ""
+
+#: includes/admin/edit-cards.php:325
+msgid "Max. Purchases / Day"
+msgstr ""
+
+#: includes/admin/edit-cards.php:327
+msgid "Use zero for unlimited."
+msgstr ""
+
+#: includes/admin/edit-cards.php:351
+msgid "Design Template"
+msgstr ""
+
+#: includes/admin/edit-cards.php:361
+msgid "Card Width"
+msgstr ""
+
+#: includes/admin/edit-cards.php:367
+msgid "Card Height"
+msgstr ""
+
+#: includes/admin/edit-cards.php:379
+msgid "Minimum Scratch"
+msgstr ""
+
+#: includes/admin/edit-cards.php:381
+msgid "The amount of cover a user must scratch for a payout."
+msgstr ""
+
+#: includes/admin/edit-cards.php:386
+msgid "Scratch Diameter"
+msgstr ""
+
+#: includes/admin/edit-cards.php:388
+msgid "The brush diameter when scratching."
+msgstr ""
+
+#: includes/admin/edit-cards.php:423
+msgid "Change Image"
+msgstr ""
+
+#: includes/admin/edit-cards.php:445
+msgid "This is the image the user scratch away."
+msgstr ""
+
+#: includes/admin/edit-cards.php:456
+msgid "Set Cover Image"
+msgstr ""
+
+#: includes/admin/edit-cards.php:482
+msgid "Quantity"
+msgstr ""
+
+#: includes/admin/edit-cards.php:511
+msgid "Total Cards"
+msgstr ""
+
+#: includes/admin/edit-cards.php:575
+msgid "Show logo as background."
+msgstr ""
+
+#: includes/admin/edit-cards.php:647
+msgid "Purchase / Free Play Log Template"
+msgstr ""
+
+#: includes/admin/edit-cards.php:649
+msgid "The log template used when a user buys a card or plays a free card."
+msgstr ""
+
+#: includes/admin/edit-cards.php:657
+msgid "Payout Log Template"
+msgstr ""
+
+#: includes/admin/edit-cards.php:659
+msgid "The log template used when a user wins."
+msgstr ""
+
+#: includes/admin/edit-cards.php:670
+msgid "Win Message"
+msgstr ""
+
+#: includes/admin/edit-cards.php:672
+msgid "Message shown when a user scratches a winning card."
+msgstr ""
+
+#: includes/admin/edit-cards.php:680
+msgid "No Win Message"
+msgstr ""
+
+#: includes/admin/edit-cards.php:682
+msgid "Message shown when a user has scratched a card with no payout."
+msgstr ""
+
+#: includes/admin/edit-cards.php:690
+msgid "Reached Limit Message"
+msgstr ""
+
+#: includes/admin/edit-cards.php:692
+msgid ""
+"Message shown when a user has reached their daily play limit. Ignored if no "
+"limit is enforced."
+msgstr ""
+
+#: includes/admin/edit-cards.php:747 includes/admin/edit-cards.php:790
+msgid "Add Images"
+msgstr ""
+
+#: includes/admin/edit-cards.php:815
+msgid "Cards Created"
+msgstr ""
+
+#: includes/admin/edit-cards.php:816
+msgid "Cards Purchased"
+msgstr ""
+
+#: includes/admin/edit-cards.php:817
+msgid "Cards Played"
+msgstr ""
+
+#: includes/admin/edit-cards.php:818
+msgid "Cards Remaining"
+msgstr ""
+
+#: includes/admin/edit-cards.php:861
+msgid ""
+"Purchased cards are cards that has been paid for but not yet scratched or "
+"cards that has been given to a user by an administrator and not yet "
+"scratched by the user. A card is considered \"played\" once it has been "
+"scratched."
+msgstr ""
+
+#: includes/admin/manage-purchase-log.php:18
+#: includes/admin/manage-purchase-log.php:19
+#: includes/admin/manage-purchase-log.php:221
+msgid "Purchase Log"
+msgstr ""
+
+#: includes/admin/manage-purchase-log.php:212
+msgid "Payment"
+msgstr ""
+
+#: includes/admin/manage-purchase-log.php:357
+#, php-format
+msgid "Deleted User. ID: %s"
+msgstr ""
+
+#: includes/admin/manage-purchase-log.php:367
+msgid "Filter by User"
+msgstr ""
+
+#: includes/admin/manage-purchase-log.php:394
+#, php-format
+msgid "Set Deleted. Set ID: %s"
+msgstr ""
+
+#. Name of the plugin
+msgid "myCRED Scratch Cards"
+msgstr ""
+
+#. Description of the plugin
+msgid "Lets your users buy scratch cards using points."
+msgstr ""

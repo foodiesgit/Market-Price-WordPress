@@ -1,0 +1,140 @@
+/**
+ * Edit Scratch Cards Screen
+ * @since 1.0
+ * @verison 1.0
+ */
+#poststuff .inside {
+	margin-top: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+#poststuff #mycred-scratch-actions .inside, #poststuff #mycred-scratch-card-winnings .inside { margin-top: 0; padding-left: 0; padding-right: 0; padding-bottom: 0; }
+#poststuff .inside input, #poststuff .inside select {
+	max-width: 100%;
+}
+#minor-publishing-actions {
+	padding: 10px 10px 10px 10px;
+	text-align: left;
+}
+#minor-publishing-actions strong {
+	float: right;
+}
+.mycred-scratch-image-wrapper > div img {
+	max-width: 100%;
+	height: auto;
+}
+.mycred-scratch-attached-image .dashicon:hover {
+	cursor: pointer;
+}
+.form-group label {
+	display: block;
+}
+.postbox * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.postbox *:before,
+.postbox *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#mycred-scratch-card-winnings table>thead>tr>th {
+	border-bottom: none;
+}
+.add-new-button-row {
+	margin-top: 12px;
+	border-top: 1px solid #eeeeee;
+	padding-top: 12px;
+}
+#scratch-card-structure {
+	display: block;
+	width: 250px;
+	height: 300px;
+	background-image: url('../images/card-structure.png');
+	background-position: center center;
+	background-repeat: no-repeat;
+	padding-top: 75px;
+}
+#scratch-card-structure .middle {
+	padding-top: 35px;
+	padding-left: 14px;
+}
+#scratch-card-structure input {
+	width: 60px;
+}
+.text-center {
+	text-align: center;
+}
+#scratch-card-cover {
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+}
+#mycred-scratch-card-cover .inside {
+	margin-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+#mycred-scratch-card-description {
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 0px;
+}
+#mycred-scratch-card-cover .description {
+	margin-top: 6px;
+}
+select#mycred-scratch-template { width: 99%; }
+#mycred-scratch-coin-image img {
+	max-width: 100%;
+	height: auto;
+	margin-right: 12px;
+}
+table.table tr td input {
+	width: 95%;
+}
+th#scratch-set-payout {
+	width: 45%;
+}
+th#scratch-set-equals {
+	width: 10%;
+}
+th#scratch-set-number {
+	width: 45%;
+}
+.table>tbody>tr>td.scratch-set-equals {
+	vertical-align: middle;
+}
+td.scratch-set-equals span.dashicons-yes {
+	color: green;
+}
+td.scratch-set-equals span.dashicons-no {
+	color: red;
+}
+#mycred-scratch-card-winnings table {
+	margin-bottom: 0;
+}
+table.table tbody tr.scratch-payout-total td {
+	vertical-align: middle;
+	background-color: #f5f5f5;
+}
+#mycred-scratch-card-cover .inside img {
+	max-width: 100%;
+	height: auto;
+}
+#mycred-scratch-coin-image div {
+	display: inline-block;
+	max-width: 50%;
+	height: auto;
+}
+#mycred-scratch-card-preview .inside {
+	margin: 0 0 0 0;
+	padding: 10px;
+	background-color: #f1f1f1;
+}
+#scratch-cover-image-wrapper img {
+	max-width: 100%;
+	height: auto;
+}

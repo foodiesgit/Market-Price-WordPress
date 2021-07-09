@@ -1,0 +1,73 @@
+# Translation of Plugins - User Switching - Stable (latest release) in Portuguese (Portugal)
+# This file is distributed under the same license as the Plugins - User Switching - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-02-10 17:05:03+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: pt\n"
+"Project-Id-Version: Plugins - User Switching - Stable (latest release)\n"
+
+#. Author URI of the plugin
+msgid "https://github.com/johnbillion/user-switching/graphs/contributors"
+msgstr "https://github.com/johnbillion/user-switching/graphs/contributors"
+
+#. Author of the plugin
+msgid "John Blackbourn & contributors"
+msgstr "John Blackbourn & contributors"
+
+#. Description of the plugin
+msgid "Instant switching between user accounts in WordPress"
+msgstr "Mudança instantânea entre contas de utilizador no WordPress"
+
+#. Plugin URI of the plugin
+msgid "https://johnblackbourn.com/wordpress-plugin-user-switching/"
+msgstr "https://johnblackbourn.com/wordpress-plugin-user-switching/"
+
+#. Plugin Name of the plugin
+msgid "User Switching"
+msgstr "User Switching"
+
+#. Translators: "switch off" means to temporarily log out
+#: user-switching.php:501
+msgid "Switch Off"
+msgstr "Terminar sessão temporariamente"
+
+#. Translators: 1: user display name; 2: username;
+#: user-switching.php:388
+msgid "Switched back to %1$s (%2$s)."
+msgstr "Mudou de novo para %1$s (%2$s)."
+
+#. Translators: 1: user display name; 2: username;
+#: user-switching.php:349 user-switching.php:479 user-switching.php:513
+#: user-switching.php:545 user-switching.php:586 user-switching.php:613
+msgid "Switch back to %1$s (%2$s)"
+msgstr "Voltar para %1$s (%2$s)"
+
+#. Translators: 1: user display name; 2: username;
+#: user-switching.php:335 user-switching.php:395
+msgid "Switched to %1$s (%2$s)."
+msgstr "Mudou para %1$s (%2$s)."
+
+#. Translators: "switch off" means to temporarily log out
+#: user-switching.php:242 user-switching.php:263
+msgid "Could not switch off."
+msgstr "Não foi possível terminar sessão temporariamente."
+
+#: user-switching.php:166 user-switching.php:191 user-switching.php:200
+#: user-switching.php:205 user-switching.php:233
+msgid "Could not switch users."
+msgstr "Não foi possível mudar de utilizador."
+
+#: user-switching.php:114 user-switching.php:525 user-switching.php:659
+#: user-switching.php:699 user-switching.php:730
+msgid "Switch&nbsp;To"
+msgstr "Mudar&nbsp;para"
+
+#: user-switching.php:113
+msgctxt "User Switching title on user profile screen"
+msgid "User Switching"
+msgstr "Mudança de utilizador"

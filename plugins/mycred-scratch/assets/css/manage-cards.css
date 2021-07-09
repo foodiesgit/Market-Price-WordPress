@@ -1,0 +1,32 @@
+/**
+ * Manage Scratch Cards Screen
+ * @since 1.0
+ * @verison 1.0
+ */
+th#status { width: 10%; }
+th#profit { width: 10%; }
+th#cards { width: 15%; }
+th#postid { width: 10%; }
+th#remaining { width: 15%; }
+th#highest { width: 15%; }
+th#title { width: auto; }
+.scratch-card-setup {
+	float: none;
+	clear: both;
+}
+.scratch-card-setup .card-set {
+	
+}
+.scratch-card-setup .card-set span {
+	display: inline-block;
+}
+.scratch-card-setup .card-set .value {
+	width: 40%;
+}
+.scratch-card-setup .card-set .sep {
+	width: 20%;
+}
+.scratch-card-setup .card-set .count {
+	width: 40%;
+}
+.column-logo img { max-height: 140px; width: auto; }
